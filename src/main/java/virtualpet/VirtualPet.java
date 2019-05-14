@@ -4,6 +4,7 @@ public class VirtualPet {
 	private int full;
 	private int happy;
 	private int clean;
+	private int tc;
 	private int tick = 0;
 	private String menu;
 	private String leave;
@@ -14,23 +15,8 @@ public class VirtualPet {
 		this.happy = happy;
 		this.clean = clean;
 	}
-
-	public String getValid() {
-		return valid;
-	}
-
-	public String getleave() {
-		return leave;
-	}
-
-	public String getMenu() {
-		return menu;
-	}
-
-	public int getCount() {
-		return tick;
-	}
-
+	
+	
 	public int getFull() {
 		return full;
 	}
@@ -153,6 +139,21 @@ public class VirtualPet {
 			clean = 0;
 		}
 	}
+	
+	public void tc() {
+		full = 100;
+		happy = 100;
+		clean = 100;
+		System.out.println("BONUS!");
+		System.out.println("    _____________");
+		System.out.println("   /    ~     ~  \\");
+		System.out.println("  /     ^     ^   \\	");
+		System.out.println(" /	           \\");
+		System.out.println("/	            >>>>>");
+		System.out.println("|		    /");
+		System.out.println("|		   /");
+		System.out.println("|		  |");
+	}
 
 	public void tick() {
 		{
@@ -204,3 +205,6 @@ public class VirtualPet {
 		}
 	}
 }
+	
+		
+	

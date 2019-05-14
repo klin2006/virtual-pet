@@ -36,6 +36,10 @@ public class VirtualPetApp {
 				turkyChiken.leave();
 				System.exit(0);
 				
+			} else if (selection.equals("tc")) {
+				turkyChiken.tc();
+				turkyChiken.tick();
+				
 			} else {
 				turkyChiken.tick();
 				turkyChiken.valid();
