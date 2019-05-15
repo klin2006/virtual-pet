@@ -22,7 +22,7 @@ public class VirtualPetApp {
 				
 			} else if (selection.equals("2")) {
 				turkyChiken.playTicTacToe();
-				turkyChiken.tick();;
+				turkyChiken.tick();
 				
 			} else if (selection.contentEquals("3")) {
 				turkyChiken.cleanThePen();
